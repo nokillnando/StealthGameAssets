@@ -5,8 +5,12 @@ Bridge:
 	BridgeFloor - Tiles
 	BridgeMetalHandle - Metal2
  
-Ceiling:
+CeilingConcrete:
 	ConcreteCeiling(1-5) - Concrete2 + AO
+
+Ceilings
+	Ceiling - Plaster01
+	CeilingGab - CellingGap
 
 ConcreteWall:
 	ConcreteWall - Concrete2 + AO
@@ -23,6 +27,9 @@ OfficeDesk:
 
 Pillar:
 	Pillar - Concrete1
+
+PaintedWall
+	PaintedWall - Plaster01
 
 StairMarble:
 	StairMarbleSteps - Marble + AO
